@@ -1,0 +1,31 @@
+//Set the icon item
+setIcon("thebetweenlands:weedwood_pickaxe")
+
+//Set the title String
+setTitle("First Tools")
+
+//Set the description String
+setDescription("Craft your first set of Tools")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/workbench")
+setRequiresParent(true)
+criteria = addCriteria("pick", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:weedwood_pickaxe")
+
+criteria = addCriteria("shovel", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:weedwood_shovel")
+
+criteria = addCriteria("axe", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:weedwood_axe")
+
+criteria = addCriteria("sword", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:weedwood_sword")
+
+
+//By not setting anything about requirements here, all criteria are automatically required

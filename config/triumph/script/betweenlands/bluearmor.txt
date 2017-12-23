@@ -1,0 +1,26 @@
+//Set the icon item
+setIcon("thebetweenlands:syrmorite_chestplate")
+
+//Set the title String
+setTitle("Blue Armor")
+
+//Set the description String
+setDescription("This armor seems pretty durable..")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/syrmoriteingot")
+setRequiresParent(true)
+criteria = addCriteria("helm", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:syrmorite_helmet")
+criteria = addCriteria("chest", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:syrmorite_chestplate")
+criteria = addCriteria("leg", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:syrmorite_leggings")
+criteria = addCriteria("boot", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:syrmorite_boots")
+//By not setting anything about requirements here, all criteria are automatically required

@@ -1,0 +1,21 @@
+//Set the icon item
+setIcon("thebetweenlands:bone_shovel")
+
+//Set the title String
+setTitle("Better Shovel")
+
+//Set the description String
+setDescription("Should dig faster")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/boneore")
+setRequiresParent(true)
+criteria = addCriteria("pick", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:bone_shovel")
+
+//By not setting anything about requirements here, all criteria are automatically required

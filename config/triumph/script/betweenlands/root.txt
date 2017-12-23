@@ -1,0 +1,30 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon("thebetweenlands:angry_pebble")
+
+//Set title String
+setTitle("The BetweenLands")
+
+//Set description String
+setDescription("How did I get here?")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(ff0004)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("thebetweenlands:textures/blocks/weedwood.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved. 
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")
+
+//Sets the requirements to be any. This means that if ANY of the criteria triggers is acquired, the advancement is acquired.
+setRequirements("any")

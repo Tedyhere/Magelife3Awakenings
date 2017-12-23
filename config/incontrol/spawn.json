@@ -1,0 +1,8 @@
+[
+	{
+    "hostile": true,
+    "dimension": 20,
+    "result": "allow",
+    "healthmultiply": 0.5
+  }
+]

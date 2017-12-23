@@ -1,0 +1,21 @@
+//Set the icon item
+setIcon("thebetweenlands:bone_pickaxe")
+
+//Set the title String
+setTitle("Bone 2 Pick")
+
+//Set the description String
+setDescription("Get it?? Huh?? HUH?? BONE TO PICK?!?!"")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/boneore")
+setRequiresParent(true)
+criteria = addCriteria("pick", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:bone_pickaxe")
+
+//By not setting anything about requirements here, all criteria are automatically required

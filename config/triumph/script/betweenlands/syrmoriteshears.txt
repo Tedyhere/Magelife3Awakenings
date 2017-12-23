@@ -1,0 +1,21 @@
+
+//Set the icon item
+setIcon("thebetweenlands:syrmorite_shears")
+
+//Set the title String
+setTitle("Shears! FINALLY!")
+
+//Set the description String
+setDescription("Now... find some moss and make a bed!")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/syrmoriteingot")
+setRequiresParent(true)
+criteria = addCriteria("Sshear", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:syrmorite_shears")
+//By not setting anything about requirements here, all criteria are automatically required

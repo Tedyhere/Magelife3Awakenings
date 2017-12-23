@@ -1,0 +1,26 @@
+//Set the icon item
+setIcon("thebetweenlands:octine_sword")
+
+//Set the title String
+setTitle("Flashy Tools")
+
+//Set the description String
+setDescription("These tools seem pretty durable..")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/octineingot")
+setRequiresParent(true)
+criteria = addCriteria("Opick", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:octine_pickaxe")
+criteria = addCriteria("Oaxe", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:octine_axe")
+criteria = addCriteria("Oshovel", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:octine_shovel")
+criteria = addCriteria("Osword", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:octine_sword")
+//By not setting anything about requirements here, all criteria are automatically required

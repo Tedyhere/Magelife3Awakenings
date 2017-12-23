@@ -1,0 +1,26 @@
+//Set the icon item
+setIcon("thebetweenlands:weedwood_workbench")
+
+//Set the title String
+setTitle("Messy Workbench")
+
+//Set the description String
+setDescription("Craft a Weedwood Workbench")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/breaklog")
+
+//Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+//Sets the required item for the criteria. This is the item that needs to be crafted. First variable is the item name, second is the metadata and is not required.
+criteria.setItem("thebetweenlands:weedwood_workbench")
+setRequiresParent(true)
+//Sets the item reward. A second variable can be added for meta, and a third can be added for stack size
+setRewardItem("thebetweenlands:weedwood_planks, 0, 32")
+
+//By not setting anything about requirements here, all criteria are automatically required

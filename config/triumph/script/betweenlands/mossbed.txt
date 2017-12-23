@@ -1,0 +1,22 @@
+
+//Set the icon item
+setIcon("thebetweenlands:moss_bed_item")
+
+//Set the title String
+setTitle("Finally!")
+setFrameType("GOAL")
+//Set the description String
+setDescription("Can't sleep in it, but you can set your spawn point!")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/syrmoriteshears")
+setRequiresParent(true)
+criteria = addCriteria("pick", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:moss_bed_item")
+
+//By not setting anything about requirements here, all criteria are automatically required

@@ -1,0 +1,22 @@
+//Set icon item
+setIcon("thebetweenlands:log_weedwood")
+
+//Set title String
+setTitle("Same as always!")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set description String
+setDescription("Punch tree, get wood")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/root")
+
+//Adds criteria named "brokelog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("brokelog", "triumph:player_break_block")
+setRewardItem("thebetweenlands:log_weedwood, 0, 8")
+//Sets the required block ore dict for the criteria. A block from this ore dict needs to be broken by the player.
+criteria.setBlockOreDict("logWood")

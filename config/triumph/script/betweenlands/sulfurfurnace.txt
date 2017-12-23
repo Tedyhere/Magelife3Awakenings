@@ -1,0 +1,19 @@
+setIcon("thebetweenlands:sulfur_furnace")
+//Set the title String
+setTitle("Smelting?")
+
+//Set the description String
+setDescription("A different kind of furnace.. wonder what it runs on?")
+
+setUncompletedIconColor(0e6802)
+setCompletedIconColor(230e02)
+setUncompletedTitleColor(424141)
+setCompletedTitleColor("424141")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:betweenlands/betweenstone")
+setRequiresParent(true)
+criteria = addCriteria("furnace", "triumph:player_crafted_item")
+criteria.setItem("thebetweenlands:sulfur_furnace")
+
+//By not setting anything about requirements here, all criteria are automatically required
