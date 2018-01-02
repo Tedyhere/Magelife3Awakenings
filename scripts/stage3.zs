@@ -3,7 +3,6 @@ var modIDs = [
 "twilightforest",
 "xreliquary",
 "mysticalagriculture",
-"silentgems",
 "enderstorage"
 ] as string[];
 for id in modIDs {

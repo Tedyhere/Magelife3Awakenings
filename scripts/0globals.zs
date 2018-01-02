@@ -1,0 +1,44 @@
+import crafttweaker.item.IItemStack;
+
+val flint = <minecraft:flint>;
+flint.maxDamage = 100;
+print(flint.maxDamage);
+
+//global  as IItemStack = <>;
+
+global diorite as IItemStack = <minecraft:stone:3>;
+global granite as IItemStack = <minecraft:stone:1>;
+global andesite as IItemStack = <minecraft:stone:5>;
+global andesitePolished as IItemStack = <minecraft:stone:6>;
+global stone as IItemStack = <minecraft:stone>;
+global granitePolished as IItemStack = <minecraft:stone:2>;
+global dioritePolished as IItemStack = <minecraft:stone:4>;
+global blockGrass as IItemStack = <minecraft:grass>;
+global dirtCoarse as IItemStack = <minecraft:dirt:1>;
+global logOak as IItemStack = <minecraft:log>;
+global logJungle as IItemStack = <minecraft:log:3>;
+global sponge as IItemStack = <minecraft:sponge>;
+global spongeWet as IItemStack = <minecraft:sponge:1>;
+global glass as IItemStack = <minecraft:glass>;
+global oreLapis as IItemStack = <minecraft:lapis_ore>;
+global blockLapis as IItemStack = <minecraft:lapis_block>;
+global sandstoneSmooth as IItemStack = <minecraft:sandstone:2>;
+global sandstone as IItemStack = <minecraft:sandstone>;
+global bedrock as IItemStack = <minecraft:bedrock>;
+global sandRed as IItemStack = <minecraft:sand:1>;
+global sand as IItemStack = <minecraft:sand>;
+global gravel as IItemStack = <minecraft:gravel>;
+global oregGold as IItemStack = <minecraft:gold_ore>;
+global oreIron as IItemStack = <minecraft:iron_ore>;
+global oreCoal as IItemStack = <minecraft:coal_ore>;
+global logSpruce as IItemStack = <minecraft:log:1>;
+global logBirch as IItemStack = <minecraft:log:2>;
+global podzol as IItemStack = <minecraft:dirt:2>;
+global dirt as IItemStack = <minecraft:dirt>;
+global cobblestone as IItemStack = <minecraft:cobblestone>;
+global plankSpruce as IItemStack = <minecraft:planks:1>;
+global plankBirch as IItemStack = <minecraft:planks:2>;
+global plankOak as IItemStack = <minecraft:planks>;
+global plankDarkOak as IItemStack = <minecraft:planks:5>;
+global plankAcacia as IItemStack = <minecraft:planks:4>;
+global plankJungle as IItemStack = <minecraft:planks:3>;
