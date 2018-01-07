@@ -4,7 +4,6 @@ var modIDs = [
 "botania",
 "roots",
 "storagedrawers",
-"littletiles",
 "platforms"
 ] as string[];
 for id in modIDs {

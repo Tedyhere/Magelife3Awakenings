@@ -1,2 +1,16 @@
-+ Added Advanced Mortars and Modified Dye/Floral Powder Recipes to match
-+ Changed LivingWood and LivingRock to require Betweenlands Materials.
+Version 0.1.6
+§2+ Added Toast Control(Disables Recipe Notifications and Tutorials)
+§2+ Added Bonsai Trees
+§2+ Modified Base Rune recipes.
+§2+ Added Toast Control
+§2+ Added Chisel
+§2+ Added Chisel and Bits
+§4- Removed Little Tiles
+§f--------------------------------------------
+
+Version 0.1.5
+§2+ Added Advanced Mortars and Modified Dye/Floral Powder Recipes to match
+§2+ Added Artisan Tables and modified recipes for armors and other items
+§2+ Changed LivingWood and LivingRock to require Betweenlands Materials.
+§4- Removed Tools using metals not available from Artisans Tables
+
