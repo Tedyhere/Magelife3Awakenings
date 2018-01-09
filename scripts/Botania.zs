@@ -13,7 +13,7 @@ mods.botania.PureDaisy.addRecipe(<thebetweenlands:log_weedwood>,<botania:livingw
 mods.botania.PureDaisy.addRecipe(<thebetweenlands:weedwood>,<botania:livingwood>);
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <thebetweenlands:items_misc:11>, 3000);
-val mushroomarray = [<thebetweenlands:flat_head_mushroom>, <thebetweenlands:black_hat_mushroom>, <thebetweenlands:bulb_capped_mushroom>] as IItemStack[];
+val mushroomarray = [<thebetweenlands:flat_head_mushroom_item>, <thebetweenlands:black_hat_mushroom_item>, <thebetweenlands:bulb_capped_mushroom_item>] as IItemStack[];
 val mushroomBetween = <ore:mushroomBetween>;
 mushroomBetween.addItems(mushroomarray);
 
