@@ -359,3 +359,13 @@ Worktable.addRecipeShaped("jeweler", <botania:dodgering>, <artisanworktables:jew
 	[<minecraft:emerald>, <botania:manaresource>, null], 
 	[<botania:manaresource>, null, <botania:manaresource>], 
 	[null, <botania:manaresource>, <botania:rune:3>]]);
+
+Worktable.addRecipeShaped("jeweler", <botania:pylon>, <artisanworktables:jewelers_pliers_manasteel>, 20, true, [
+	[null, <thebetweenlands:octine_ingot>, null], 
+	[<botania:manaresource>, <botania:manaresource:2>, <botania:manaresource>], 
+	[null, <thebetweenlands:octine_ingot>, null]]);
+
+Worktable.addRecipeShaped("jeweler", <botania:pylon:1>, <artisanworktables:jewelers_pliers_manasteel>, 20, true, [
+	[null, <botania:manaresource:18>, null], 
+	[<botania:manaresource:18>, <botania:pylon>, <botania:manaresource:18>], 
+	[null, <thebetweenlands:items_misc:39>, null]]);

@@ -5,8 +5,11 @@ import crafttweaker.item.IItemDefinition;
 
 
 //Modify Botania Base Items to use BetweenLand Items
-mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
-mods.botania.PureDaisy.addRecipe(<thebetweenlands:smooth_betweenstone>,<botania:livingrock>);
+
+
+
+mods.botania.PureDaisy.removeRecipe(livingRock);
+mods.botania.PureDaisy.addRecipe(<thebetweenlands:smooth_betweenstone>, livingRock);
 mods.botania.PureDaisy.addRecipe(<thebetweenlands:smooth_cragrock>,<botania:livingrock>);
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
 mods.botania.PureDaisy.addRecipe(<thebetweenlands:log_weedwood>,<botania:livingwood>);
@@ -25,12 +28,10 @@ val delete = [<botania:rune>,
 for item in delete{
 	mods.botania.RuneAltar.removeRecipe(item);
 }
-
-
-
 //Base Runes
-mods.botania.RuneAltar.addRecipe(<botania:rune> * 2, [<minecraft:waterlily>, <botania:manaresource>, <botania:manaresource:23>, <minecraft:fishing_rod>, <minecraft:reeds>], 8000);
-mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2, [<minecraft:fire_charge>, <botania:manaresource:23>, <botania:manaresource>, <ore:ingotBrickNether>, <minecraft:gunpowder>], 8000);
-mods.botania.RuneAltar.addRecipe(<botania:rune:2> * 2, [<botania:manaresource:23>, <botania:manaresource>, <thebetweenlands:smooth_pitstone>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_betweenstone>, <thebetweenlands:sulfur_block>, <ore:mushroomBetween>], 8000);
-
-
+mods.botania.RuneAltar.addRecipe(waterRune * 2, [<thebetweenlands:items_misc:21>, <botania:manaresource>, <botania:manaresource:23>, <minecraft:fishing_rod>, <minecraft:reeds>], 8000);
+mods.botania.RuneAltar.addRecipe(fireRune * 2, [<minecraft:fire_charge>, <botania:manaresource:23>, <botania:manaresource>, <ore:ingotBrickNether>, <minecraft:gunpowder>], 8000);
+mods.botania.RuneAltar.addRecipe(earthRune * 2, [<botania:manaresource:23>, <botania:manaresource>, <thebetweenlands:smooth_pitstone>, <thebetweenlands:smooth_cragrock>, <thebetweenlands:smooth_betweenstone>, <thebetweenlands:sulfur_block>, <ore:mushroomBetween>], 8000);
+mods.botania.RuneAltar.addRecipe(airRune * 2, [<botania:manaresource:23>, <botania:manaresource>, <thebetweenlands:items_misc:3>, <botania:manaresource:16>, <minecraft:feather>], 8000);
+mods.botania.RuneAltar.addRecipe(springRune, [<ore:runeWaterB>, <ore:runeFireB>, <ore:flowerSpring>, <ore:treeSapling>, <ore:mushroomBetween>, <ore:cropWheat>], 8000);
+mods.botania.RuneAltar.addRecipe(summerRune, [<ore:runeEarthB>, <ore:runeAirB>, <thebetweenlands:limestone>, <minecraft:sand>, <thebetweenlands:sap_ball>, <minecraft:melon>], 8000);

@@ -1,3 +1,4 @@
+#Priority 100
 import crafttweaker.item.IItemStack;
 
 val flint = <minecraft:flint>;
@@ -42,3 +43,8 @@ global plankOak as IItemStack = <minecraft:planks>;
 global plankDarkOak as IItemStack = <minecraft:planks:5>;
 global plankAcacia as IItemStack = <minecraft:planks:4>;
 global plankJungle as IItemStack = <minecraft:planks:3>;
+global waterRune as IItemStack = <botania:rune>;
+global fireRune as IItemStack = <botania:rune:1>;
+global earthRune as IItemStack = <botania:rune:2>;
+global airRune as IItemStack = <botania:rune:3>;
+global livingRock as IItemStack = <botania:livingrock>;

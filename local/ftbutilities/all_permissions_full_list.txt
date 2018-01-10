@@ -201,6 +201,7 @@ command.ftb.edit_config.journeymap_ModInfo: CMD
 command.ftb.edit_config.justenoughdimensions: CMD
 command.ftb.edit_config.librarianlib: CMD
 command.ftb.edit_config.littletiles: CMD
+command.ftb.edit_config.mapwriter: CMD
 command.ftb.edit_config.minecolonies: CMD
 command.ftb.edit_config.modnametooltip: CMD
 command.ftb.edit_config.mputils\addons\mpbasic\mpbasic: CMD
@@ -300,7 +301,6 @@ command.gamestage: CMD
 command.give: CMD
 command.help: CMD
 command.jed: CMD
-command.jtp: CMD
 command.kill: CMD
 command.locate: CMD
 command.me: CMD

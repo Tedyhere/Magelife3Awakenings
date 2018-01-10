@@ -1,3 +1,8 @@
+Version 0.1.7
+§2+ Added Mapwriter
+§4- Removed JourneyMap
+§2+ Modified more Botania recipes
+
 Version 0.1.6
 §2+ Added Toast Control(Disables Recipe Notifications and Tutorials)
 §2+ Added Bonsai Trees
