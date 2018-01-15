@@ -1,8 +1,10 @@
 {
   "savedSubBlockNames": {
     "0": {
-      "0": "galena_ore_minecraft_netherrack",
-      "1": "galena_ore_minecraft_stone"
+      "0": "ender_ore_minecraft_end_stone",
+      "1": "ender_ore_minecraft_stone",
+      "2": "galena_ore_minecraft_stone",
+      "3": "galena_ore_minecraft_netherrack"
     }
   }
 }

@@ -35,3 +35,5 @@ mods.botania.RuneAltar.addRecipe(earthRune * 2, [<botania:manaresource:23>, <bot
 mods.botania.RuneAltar.addRecipe(airRune * 2, [<botania:manaresource:23>, <botania:manaresource>, <thebetweenlands:items_misc:3>, <botania:manaresource:16>, <minecraft:feather>], 8000);
 mods.botania.RuneAltar.addRecipe(springRune, [<ore:runeWaterB>, <ore:runeFireB>, <ore:flowerSpring>, <ore:treeSapling>, <ore:mushroomBetween>, <ore:cropWheat>], 8000);
 mods.botania.RuneAltar.addRecipe(summerRune, [<ore:runeEarthB>, <ore:runeAirB>, <thebetweenlands:limestone>, <minecraft:sand>, <thebetweenlands:sap_ball>, <minecraft:melon>], 8000);
+
+mods.botania.RuneAltar.addRecipe(<botania:lightrelay>, [<botania:manaresource:12>, dragonstone, glowstonedust, glowstonedust], 8000);

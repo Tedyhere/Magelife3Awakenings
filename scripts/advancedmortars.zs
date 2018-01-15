@@ -1,7 +1,7 @@
 import mods.artisanworktables.Worktable;
 
-Worktable.addRecipeShapeless("blacksmith", <contenttweaker:material_part:26>, <ore:blacksmiths_hammer>, 5, [<ore:ingotIron>]);
-Worktable.addRecipeShapeless("blacksmith", <contenttweaker:material_part:31> * 2, <ore:blacksmiths_cutters>, 5, [<ore:plateIron>]);
+//Worktable.addRecipeShapeless("blacksmith", <contenttweaker:material_part:26>, <ore:blacksmiths_hammer>, 5, [<ore:ingotIron>]);
+//Worktable.addRecipeShapeless("blacksmith", <contenttweaker:material_part:31> * 2, <ore:blacksmiths_cutters>, 5, [<ore:plateIron>]);
 
 
 Worktable.addRecipeShaped("basic", <advancedmortars:mortar>, <ore:carpenters_hammer>, 10, true, [

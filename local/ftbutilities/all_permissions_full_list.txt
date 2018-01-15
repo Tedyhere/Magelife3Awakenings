@@ -1,4 +1,4 @@
-6487 nodes in total
+6526 nodes in total
 Modifying this file won't have any effect!
 
 command.#&: CMD
@@ -88,6 +88,7 @@ command.denyblocks.show: CMD
 command.denyblocks.syntax: CMD
 command.denyblocks: CMD
 command.difficulty: CMD
+command.dropt: CMD
 command.effect: CMD
 command.enchant: CMD
 command.enreloadconfig: CMD
@@ -520,6 +521,7 @@ ftbu.claims.block.edit.abyssalcraft.wastelandsthorn: OP
 ftbu.claims.block.edit.abyssalcraft.whead: OP
 ftbu.claims.block.edit.advancedmortars.mortar: OP
 ftbu.claims.block.edit.artisanworktables.worktable: OP
+ftbu.claims.block.edit.artisanworktables.worktable_mage: OP
 ftbu.claims.block.edit.astralsorcery.blockaltar: OP
 ftbu.claims.block.edit.astralsorcery.blockattunementaltar: OP
 ftbu.claims.block.edit.astralsorcery.blockattunementrelay: OP
@@ -2207,6 +2209,7 @@ ftbu.claims.block.interact.abyssalcraft.wastelandsthorn: OP
 ftbu.claims.block.interact.abyssalcraft.whead: OP
 ftbu.claims.block.interact.advancedmortars.mortar: OP
 ftbu.claims.block.interact.artisanworktables.worktable: OP
+ftbu.claims.block.interact.artisanworktables.worktable_mage: OP
 ftbu.claims.block.interact.astralsorcery.blockaltar: OP
 ftbu.claims.block.interact.astralsorcery.blockattunementaltar: OP
 ftbu.claims.block.interact.astralsorcery.blockattunementrelay: OP
@@ -4121,6 +4124,26 @@ ftbu.claims.item.artisanworktables.carpenters_handsaw_silver: ALL
 ftbu.claims.item.artisanworktables.carpenters_handsaw_stone: ALL
 ftbu.claims.item.artisanworktables.carpenters_handsaw_terrasteel: ALL
 ftbu.claims.item.artisanworktables.carpenters_handsaw_wood: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_diamond: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_elementium: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_flint: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_gold: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_iron: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_manasteel: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_silver: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_stone: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_terrasteel: ALL
+ftbu.claims.item.artisanworktables.engineers_driver_wood: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_diamond: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_elementium: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_flint: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_gold: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_iron: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_manasteel: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_silver: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_stone: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_terrasteel: ALL
+ftbu.claims.item.artisanworktables.engineers_spanner_wood: ALL
 ftbu.claims.item.artisanworktables.jewelers_gemcutter_diamond: ALL
 ftbu.claims.item.artisanworktables.jewelers_gemcutter_elementium: ALL
 ftbu.claims.item.artisanworktables.jewelers_gemcutter_flint: ALL
@@ -4141,6 +4164,26 @@ ftbu.claims.item.artisanworktables.jewelers_pliers_silver: ALL
 ftbu.claims.item.artisanworktables.jewelers_pliers_stone: ALL
 ftbu.claims.item.artisanworktables.jewelers_pliers_terrasteel: ALL
 ftbu.claims.item.artisanworktables.jewelers_pliers_wood: ALL
+ftbu.claims.item.artisanworktables.mages_athame_diamond: ALL
+ftbu.claims.item.artisanworktables.mages_athame_elementium: ALL
+ftbu.claims.item.artisanworktables.mages_athame_flint: ALL
+ftbu.claims.item.artisanworktables.mages_athame_gold: ALL
+ftbu.claims.item.artisanworktables.mages_athame_iron: ALL
+ftbu.claims.item.artisanworktables.mages_athame_manasteel: ALL
+ftbu.claims.item.artisanworktables.mages_athame_silver: ALL
+ftbu.claims.item.artisanworktables.mages_athame_stone: ALL
+ftbu.claims.item.artisanworktables.mages_athame_terrasteel: ALL
+ftbu.claims.item.artisanworktables.mages_athame_wood: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_diamond: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_elementium: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_flint: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_gold: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_iron: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_manasteel: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_silver: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_stone: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_terrasteel: ALL
+ftbu.claims.item.artisanworktables.mages_grimoire_wood: ALL
 ftbu.claims.item.artisanworktables.masons_chisel_diamond: ALL
 ftbu.claims.item.artisanworktables.masons_chisel_elementium: ALL
 ftbu.claims.item.artisanworktables.masons_chisel_flint: ALL
@@ -4182,6 +4225,7 @@ ftbu.claims.item.artisanworktables.tailors_shears_stone: ALL
 ftbu.claims.item.artisanworktables.tailors_shears_terrasteel: ALL
 ftbu.claims.item.artisanworktables.tailors_shears_wood: ALL
 ftbu.claims.item.artisanworktables.worktable: ALL
+ftbu.claims.item.artisanworktables.worktable_mage: ALL
 ftbu.claims.item.astralsorcery.blockaltar: ALL
 ftbu.claims.item.astralsorcery.blockattunementaltar: ALL
 ftbu.claims.item.astralsorcery.blockattunementrelay: ALL
@@ -4864,11 +4908,7 @@ ftbu.claims.item.chiselsandbits.negativeprint: ALL
 ftbu.claims.item.chiselsandbits.positiveprint: ALL
 ftbu.claims.item.chiselsandbits.tape_measure: ALL
 ftbu.claims.item.chiselsandbits.wrench_wood: ALL
-ftbu.claims.item.contenttweaker.bone_needle: ALL
-ftbu.claims.item.contenttweaker.bone_needle_and_thread: ALL
 ftbu.claims.item.contenttweaker.brown_dye: ALL
-ftbu.claims.item.contenttweaker.iron_needle: ALL
-ftbu.claims.item.contenttweaker.knapped_flint: ALL
 ftbu.claims.item.contenttweaker.material_part: ALL
 ftbu.claims.item.contenttweaker.sub_block_holder_0: ALL
 ftbu.claims.item.contenttweaker.white_dye: ALL
